@@ -14,6 +14,13 @@ Using constraint satisfaction (CSP) we can find all such haikus for numbers belo
     2 + s[l_3] = 5
     l_1 + l_2 + l_3
 
-Call make_haikus() to get the haikus and solution_to_text() to print them out.
+Call make_haikus() to get the haikus and solution_to_text() to print them out. Example:
+
+    >> s = make_haikus()
+    Solving CSP model.
+    >>> print(solution_to_text(s[0]))
+    eight thousand nineteen
+    plus nine hundred eighty one
+    equals nine thousand
 
 This code uses Python 3.X and the [constraint](https://labix.org/python-constraint) package.
